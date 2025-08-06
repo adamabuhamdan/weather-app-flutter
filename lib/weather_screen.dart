@@ -20,7 +20,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
     try {
       final res = await http.get(
         Uri.parse(
-          'https://api.openweathermap.org/data/2.5/forecast?q=Amman,%20JO&APPID=339aa8e9cd6e6aab36cf673fc085cc31',
+          '',
         ),
       );
       final data = jsonDecode(res.body);
